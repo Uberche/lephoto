@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Raleway');
+
+$color1: #666;
+$color2: #515354;
+$color3: #ffa237;
+$color4: #9bb6a3;
+$color5: #fcfefc;
+
+$headline-font: 'Raleway', sans-serif;
+$regular-font: 'Open Sans', sans-serif;
+
+* {
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 16px;
+	font-family: $regular-font;
+	color: #010;
+}
+
+a {
+	text-decoration: none;
+}
+
+.bg {
+	width: 100%;
+	height: 100vh;
+	position: absolute;
+	background: url(../images/bg.jpg);
+}
